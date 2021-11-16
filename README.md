@@ -10,16 +10,16 @@ ComparisonResult result = Compare.GetComparisonResult(nameList1, nameList2);
 
 foreach(string name in result.CommonNames)
 {
-	Console.WriteLine(name);
+    Console.WriteLine(name);
 }
 
 foreach(string name in result.UniqueList1Names)
 {
-	Console.WriteLine(name);
+    Console.WriteLine(name);
 }
 
 foreach(string name in result.UniqueList2Names)
 {
-	Console.WriteLine(name);
+    Console.WriteLine(name);
 }
 ```
