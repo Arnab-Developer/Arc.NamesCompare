@@ -23,3 +23,9 @@ foreach(string name in result.UniqueList2Names)
     Console.WriteLine(name);
 }
 ```
+
+Install in your project with NuGet.
+
+```
+dotnet add package Arc.NamesCompare
+```
