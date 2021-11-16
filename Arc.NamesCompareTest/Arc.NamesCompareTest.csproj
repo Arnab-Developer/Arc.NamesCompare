@@ -23,9 +23,9 @@
     <ProjectReference Include="..\Arc.NamesCompare\Arc.NamesCompare.csproj" />
   </ItemGroup>
 
-	<ItemGroup>
-		<Using Include="Xunit" />
-		<Using Include="Arc.NamesCompare" />
-	</ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="Arc.NamesCompare" />
+  </ItemGroup>
 	
 </Project>
