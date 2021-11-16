@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Arc.NamesCompare</name>
+    </assembly>
+    <members>
+        <member name="T:Arc.NamesCompare.Compare">
+            <summary>
+            Compare two list of names.
+            </summary>
+        </member>
+        <member name="M:Arc.NamesCompare.Compare.GetComparisonResult(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Compare two list of names.
+            </summary>
+            <param name="nameList1">Name list 1</param>
+            <param name="nameList2">Name list 2</param>
+            <returns>Comparison result</returns>
+        </member>
+        <member name="T:Arc.NamesCompare.ComparisonResult">
+            <summary>
+            Comparison result
+            </summary>
+            <param name="CommonNames">Common names between two name lists</param>
+            <param name="UniqueList1Names">Names which are in list 1 but not in list 2</param>
+            <param name="UniqueList2Names">Names which are in list 2 but not in list 1</param>
+        </member>
+        <member name="M:Arc.NamesCompare.ComparisonResult.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Comparison result
+            </summary>
+            <param name="CommonNames">Common names between two name lists</param>
+            <param name="UniqueList1Names">Names which are in list 1 but not in list 2</param>
+            <param name="UniqueList2Names">Names which are in list 2 but not in list 1</param>
+        </member>
+    </members>
+</doc>
