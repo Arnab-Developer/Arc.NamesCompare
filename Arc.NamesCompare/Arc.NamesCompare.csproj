@@ -11,8 +11,8 @@
 		<PackageProjectUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</RepositoryUrl>
 		<PackageTags>string,comparison,collection</PackageTags>
-		<PackageReleaseNotes>First release</PackageReleaseNotes>
-		<Version>1.0.0</Version>
+		<PackageReleaseNotes>Fix readme file format</PackageReleaseNotes>
+		<Version>1.0.1</Version>
 		<DocumentationFile>Arc.NamesCompare.xml</DocumentationFile>
 		<PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
   </PropertyGroup>
