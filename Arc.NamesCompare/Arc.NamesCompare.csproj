@@ -4,21 +4,35 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<Authors>Arnab Roy Chowdhury</Authors>
-		<Description>Compare two list of names and return common and unique names between them</Description>
-		<Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</RepositoryUrl>
-		<PackageTags>string,comparison,collection</PackageTags>
-		<PackageReleaseNotes>Fix readme file format</PackageReleaseNotes>
-		<Version>1.0.1</Version>
-		<DocumentationFile>Arc.NamesCompare.xml</DocumentationFile>
-		<PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
+    <Authors>Arnab Roy Chowdhury</Authors>
+    <Description>Compare two list of names and return common and unique names between them</Description>
+    <Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</RepositoryUrl>
+    <PackageTags>string,comparison,collection</PackageTags>
+    <PackageReleaseNotes>Package health check</PackageReleaseNotes>
+    <Version>1.0.2-preview.1</Version>
+    <DocumentationFile>Arc.NamesCompare.xml</DocumentationFile>
+    <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
-	<ItemGroup>
-		<None Include="..\NuGetReadme.md" Pack="true" PackagePath="\" />
-	</ItemGroup>
-	
+  <ItemGroup>
+    <None Include="..\NuGetReadme.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
 </Project>
