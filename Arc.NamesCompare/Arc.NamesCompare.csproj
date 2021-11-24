@@ -11,8 +11,8 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.NamesCompare</RepositoryUrl>
     <PackageTags>string,comparison,collection</PackageTags>
-    <PackageReleaseNotes>Package health check</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <PackageReleaseNotes>nuget readme update</PackageReleaseNotes>
+    <Version>1.0.3</Version>
     <DocumentationFile>Arc.NamesCompare.xml</DocumentationFile>
     <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
