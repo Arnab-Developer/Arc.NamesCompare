@@ -1,6 +1,14 @@
 # Names compare
 
-Compare two list of names and return common and unique names between them.
+This is a library to compare two lists of names and return common and unique names between them.
+
+Install in your project with NuGet.
+
+```
+dotnet add package Arc.NamesCompare
+```
+
+Sample code to use the library.
 
 ```csharp
 IEnumerable<string> nameList1 = new List<string> { "Name1", "Name2", "Name3", "Name4" };
@@ -22,10 +30,4 @@ foreach(string name in result.UniqueList2Names)
 {
     Console.WriteLine(name); // Name5
 }
-```
-
-Install in your project with NuGet.
-
-```
-dotnet add package Arc.NamesCompare
 ```
