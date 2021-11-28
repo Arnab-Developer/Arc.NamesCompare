@@ -2,7 +2,7 @@
 
 This is a library to compare two lists of names and return common and unique names between them.
 
-Install in your project with NuGet.
+Install in your project with [NuGet](https://www.nuget.org/packages/Arc.NamesCompare).
 
 ```
 dotnet add package Arc.NamesCompare
