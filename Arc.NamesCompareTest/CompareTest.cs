@@ -49,4 +49,10 @@ public class CompareTest
         Assert.Throws<ArgumentNullException>(() => Compare.GetComparisonResult(nameList1, null));
 #pragma warning restore CS8625 // Cannot convert null literal to non-nullable reference type.
     }
+    
+    [Fact]
+    public void Test1()
+    {
+        
+    }
 }
